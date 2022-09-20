@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLX</title>
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/all.css">
+</head>
+
+<body>
+
+    <!-- 1st Navbar -->
+        <div class="container pt-3 pb-0 ">
+
+
+            <div class="row mx-auto g-0">
+                <div class="col-lg-1 col-2 px-1 text-center">
+                    <a class="navbar-brand" href="#">
+                        <img src="./Images/OLX-Logo Blue.png" alt="" width="40" height="25">
+                    </a>
+                </div>
+                <div class="col-lg-2 col-5 px-1 text-center">
+                    <span><i class="fa-solid fa-car me-2"></i>MOTORS</span>
+                </div>
+                <div class="col-lg-2 col-5 px-1 text-center">
+                    <span><i class="fa-solid fa-house-chimney me-1"></i>PROPERTY</span>
+                </div>
+            </div>
+
+
+
+            <div class="row px-2 mx-auto ">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="col-lg-1">
+                        <a class="navbar-brand" href="#">
+                            <img src="./Images/OLX-Logo Black.png" alt="" width="60" height="35">
+                        </a>
+                    </div>
+
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="col-lg-3 my-3 my-lg-0">
+                            <div class="input-group border border-1 border-dark rounded">
+                                <div class="input-group-text bg-white"><i class="fa fa-search"></i></div>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Search city, area or locality</option>
+                                    <option value="1">Use Current Location</option>
+                                    <option value="2">See ads in all Pakistan</option>
+                                </select>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-6 mx-lg-3">
+                            <div class="input-group border border-1 border-dark rounded">
+                                <input type="text" class="form-control" id="autoSizingInputGroup"
+                                    placeholder="Find Cars, Mobile Phones and more...">
+                                <div style="background-color: #002F34; color:white;" class="input-group-text"><i
+                                        class="fa fa-search"></i></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-1 mx-0 mx-lg-2 col-6 float-start my-4">
+                            <button type="button" class="btn btn-link text-dark fw-bold">Login</button>
+                        </div>
+                        <div class="col-lg-1 col-6 float-start my-4">
+                            <img src="./Images/icon border.png" alt="" height="45px" width="100px">
+                            <span style="margin-left: -78px;"><img src="./Images/icon +.png" alt=""
+                                    height="15px">SELL</span>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- 2nd Navbar -->
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-12 col-lg-2 text-lg-center text-center">
+                <div class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark fw-bold" href="#" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        ALL CATEGORIES
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Vehicles</a></li>
+                        <li><a class="dropdown-item" href="#">Kids</a></li>
+                        <li><a class="dropdown-item" href="#">Jobs</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-6 col-lg-2 text-lg-center"><a class="nav-link text-dark" href="#">Mobile Phones</a></div>
+            <div class="col-6 col-lg-1 text-lg-center"><a class="nav-link text-dark" href="#">Cars</a></div>
+            <div class="col-6 col-lg-2 text-lg-center"><a class="nav-link text-dark" href="#">Motor Cycles</a></div>
+            <div class="col-6 col-lg-1 text-lg-center"><a class="nav-link text-dark" href="#">Houses</a></div>
+            <div class="col-6 col-lg-2 text-lg-center"><a class="nav-link text-dark" href="#">TV-Video-Audio</a></div>
+            <!-- <div class="col-6 col-lg-1 border border-1 text-lg-center"><a class="nav-link text-dark" href="#">Tablets</a></div> -->
+            <div class="col-6 col-lg-2 text-lg-center"><a class="nav-link text-dark" href="#">Land & Plots</a></div>
+        </div>
+    </div>
+
+
+    <hr class="text-secondary mt-4">
+
+
+    <!-- Carosuel and Cards -->
+    <div class="container">
+
+        <!-- Carosuel -->
+        <div id="carouselExampleIndicators" class="carousel slide mt-4" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./Images/slider image.jfif" class="d-block w-100" style="height: 220px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="./Images/slider image.jfif" class="d-block w-100" style="height: 220px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="./Images/slider image.jfif" class="d-block w-100" style="height: 220px;">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- All Cards -->
+        <h4 class="mb-0 mt-5 text-muted">Fresh recommendations</h4>
+        <!-- Card Row 1 -->
+        <div class="row g-2">
+            <!-- Card 01 -->
+            <div class="col-lg-3 col-sm-6 mt-lg-5 mt-4">
+                <div class="card">
+                    <img src="./Images/card_img-1.jfif" class="card-img-top" style="height: 200px;">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-10">
+                                <p class="card-text">Realme C35 4GB 128GB PTA Approved For Sale</p>
+                            </div>
+                            <div class="col-2">
+                                <img src="./Images/heart.png" style="height: 20px;" class="">
+                            </div>
+                        </div>
+                        <h5 class="card-title fw-bold mt-2 mb-3">Rs 10,800</h5>
+                    </div>
+                    <div class="card-footer text-muted fs-6 bg-white">Road, Rawalpindi . 1 hour ago</div>
+                </div>
+            </div>
+
+            <!-- Card 02 -->
+            <div class="col-lg-3 col-sm-6 mt-lg-5 mt-4">
+                <div class="card">
+                    <img src="./Images/card_img-2.jfif" class="card-img-top" style="height: 200px;">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-10">
+                                <p class="card-text">DHA Quetta 1 Kanal Residential Flat For Sale</p>
+                            </div>
+                            <div class="col-2">
+                                <img src="./Images/heart.png" style="height: 20px;" class="">
+                            </div>
+                        </div>
+                        <h5 class="card-title fw-bold mt-2 mb-3">Rs 8,000,000</h5>
+                    </div>
+                    <div class="card-footer text-muted fs-6 bg-white">Highway, Quetta . 7 hours ago</div>
+                </div>
+            </div>
+
+            <!-- Card 03 -->
+            <div class="col-lg-3 col-sm-6 mt-lg-5 mt-4">
+                <div class="card">
+                    <img src="./Images/card_img-3.jfif" class="card-img-top" style="height: 200px;">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-10">
+                                <p class="card-text">mi true wireless earbuds sound heavy Base okay</p>
+                            </div>
+                            <div class="col-2">
+                                <img src="./Images/heart.png" style="height: 20px;" class="">
+                            </div>
+                        </div>
+                        <h5 class="card-title fw-bold mt-2 mb-3">Rs 3,500</h5>
+                    </div>
+                    <div class="card-footer text-muted fs-6 bg-white ">Square, Islamabad . 1 hour ago</div>
+                </div>
+            </div>
+
+            <!-- Card 04 -->
+            <div class="col-lg-3 col-sm-6 mt-lg-5 mt-4">
+                <div class="card">
+                    <img src="./Images/card_img-4.jfif" class="card-img-top" style="height: 200px;">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-10">
+                                <p class="card-text">1 Kanal Brand New Designer House For Sale</p>
+                            </div>
+                            <div class="col-2">
+                                <img src="./Images/heart.png" style="height: 20px;" class="">
+                            </div>
+                        </div>
+                        <h5 class="card-title fw-bold mt-2 mb-3">Rs 80,000</h5>
+                    </div>
+                    <div class="card-footer text-muted fs-6 bg-white ">Town, Rawalpindi . 1 hour ago</div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Card Row 2 -->
+        <div class="row g-2">
+            <!-- Card 01 -->
+            <div class="col-lg-3 col-sm-6 mt-lg-5 mt-4">
+                <div class="card">
+                    <img src="./Images/card_img-5.jfif" class="card-img-top" style="height: 200px;">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-10">
+                                <p class="card-text">Cultus Car A one condition & 2017</p>
+                            </div>
+                            <div class="col-2">
+                                <img src="./Images/heart.png" style="height: 20px;" class="">
+                            </div>
+                        </div>
+                        <h5 class="card-title fw-bold mt-2 mb-3">Rs 3,00,000</h5>
+                    </div>
+                    <div class="card-footer text-muted fs-6 bg-white">Surjani, Karachi . 1 month ago</div>
+                </div>
+            </div>
+
+            <!-- Card 02 -->
+            <div class="col-lg-3 col-sm-6 mt-lg-5 mt-4">
+                <div class="card">
+                    <img src="./Images/card_img-6.jfif" class="card-img-top" style="height: 200px;">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-10">
+                                <p class="card-text">T Shirts Printing Polo Shirts For Men</p>
+                            </div>
+                            <div class="col-2">
+                                <img src="./Images/heart.png" style="height: 20px;" class="">
+                            </div>
+                        </div>
+                        <h5 class="card-title fw-bold mt-2 mb-3">Rs 850</h5>
+                    </div>
+                    <div class="card-footer text-muted fs-6 bg-white">Gulberg, Lahore . 3 weeks ago</div>
+                </div>
+            </div>
+
+            <!-- Card 03 -->
+            <div class="col-lg-3 col-sm-6 mt-lg-5 mt-4">
+                <div class="card">
+                    <img src="./Images/card_img-7.jfif" class="card-img-top" style="height: 200px;">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-10">
+                                <p class="card-text">Luxury Farmhouse with AC available in Karachi</p>
+                            </div>
+                            <div class="col-2">
+                                <img src="./Images/heart.png" style="height: 20px;" class="">
+                            </div>
+                        </div>
+                        <h5 class="card-title fw-bold mt-2 mb-3">Rs 15,000</h5>
+                    </div>
+                    <div class="card-footer text-muted fs-6 bg-white ">Highway, Karachi . 2 weeks ago</div>
+                </div>
+            </div>
+
+            <!-- Card 04 -->
+            <div class="col-lg-3 col-sm-6 mt-lg-5 mt-4">
+                <div class="card">
+                    <img src="./Images/card_img-8.jfif" class="card-img-top" style="height: 200px;">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-10">
+                                <p class="card-text">Gree 1.5 tone Inverter Office used condition</p>
+                            </div>
+                            <div class="col-2">
+                                <img src="./Images/heart.png" style="height: 20px;" class="">
+                            </div>
+                        </div>
+                        <h5 class="card-title fw-bold mt-2 mb-3">Rs 70,000</h5>
+                    </div>
+                    <div class="card-footer text-muted fs-6 bg-white ">Defence, Islamadad . 6 days ago</div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Card Row 3 -->
+        <div class="row g-2">
+            <!-- Card 01 -->
+            <div class="col-lg-3 col-sm-6 mt-lg-5 mt-4">
+                <div class="card">
+                    <img src="./Images/card_img-9.jfif" class="card-img-top" style="height: 200px;">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-10">
+                                <p class="card-text">OPPO F 21 Pro Max Storage 8/128 GB</p>
+                            </div>
+                            <div class="col-2">
+                                <img src="./Images/heart.png" style="height: 20px;" class="">
+                            </div>
+                        </div>
+                        <h5 class="card-title fw-bold mt-2 mb-3">Rs 48,300</h5>
+                    </div>
+                    <div class="card-footer text-muted fs-6 bg-white">Bagh-e-Korangi, Karachi . 2 minutes ago</div>
+                </div>
+            </div>
+
+            <!-- Card 02 -->
+            <div class="col-lg-3 col-sm-6 mt-lg-5 mt-4">
+                <div class="card">
+                    <img src="./Images/card_img-10.jfif" class="card-img-top" style="height: 200px;">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-10">
+                                <p class="card-text">1 Kanal Brand New Designer House For Sale</p>
+                            </div>
+                            <div class="col-2">
+                                <img src="./Images/heart.png" style="height: 20px;" class="">
+                            </div>
+                        </div>
+                        <h5 class="card-title fw-bold mt-2 mb-3">Rs 90,000</h5>
+                    </div>
+                    <div class="card-footer text-muted fs-6 bg-white ">Bank Road, Rawalpindi . 1 hour ago</div>
+                </div>
+            </div>
+            <!-- Card 03 -->
+            <div class="col-lg-3 col-sm-6 mt-lg-5 mt-4">
+                <div class="card">
+                    <img src="./Images/card_img-11.jfif" class="card-img-top" style="height: 200px;">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-10">
+                                <p class="card-text">Iphone 7 plus 128gb PTA approved pink body</p>
+                            </div>
+                            <div class="col-2">
+                                <img src="./Images/heart.png" style="height: 20px;" class="">
+                            </div>
+                        </div>
+                        <h5 class="card-title fw-bold mt-2 mb-3">Rs 25,500</h5>
+                    </div>
+                    <div class="card-footer text-muted fs-6 bg-white">New Karachi, Karachi . 7 minutes ago</div>
+                </div>
+            </div>
+
+            <!-- Card 04 -->
+            <div class="col-lg-3 col-sm-6 mt-lg-5 mt-4">
+                <div class="card">
+                    <img src="./Images/card_img-12.jfif" class="card-img-top" style="height: 200px;">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-10">
+                                <p class="card-text">mi true wireless earbuds sound heavy Base okay</p>
+                            </div>
+                            <div class="col-2">
+                                <img src="./Images/heart.png" style="height: 20px;" class="">
+                            </div>
+                        </div>
+                        <h5 class="card-title fw-bold mt-2 mb-3">Rs 2,500</h5>
+                    </div>
+                    <div class="card-footer text-muted fs-6 bg-white ">Ahmedpur East, Islamabad . 1 hour ago</div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <!-- Card Row 4 -->
+        <div class="row g-2">
+            <!-- Card 01 -->
+            <div class="col-lg-3 col-sm-6 mt-lg-5 mt-4">
+                <div class="card">
+                    <img src="./Images/card_img-13.jfif" class="card-img-top" style="height: 200px;">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-10">
+                                <p class="card-text">Honda 125 Model 2022 Red Tanki</p>
+                            </div>
+                            <div class="col-2">
+                                <img src="./Images/heart.png" style="height: 20px;" class="">
+                            </div>
+                        </div>
+                        <h5 class="card-title fw-bold mt-2 mb-3">Rs 168,000</h5>
+                    </div>
+                    <div class="card-footer text-muted fs-6 bg-white">Mall Road, Lahore . 11 hours ago</div>
+                </div>
+            </div>
+
+            <!-- Card 02 -->
+            <div class="col-lg-3 col-sm-6 mt-lg-5 mt-4">
+                <div class="card">
+                    <img src="./Images/card_img-2.jfif" class="card-img-top" style="height: 200px;">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-10">
+                                <p class="card-text">DHA Quetta 1 Kanal Flat Highway</p>
+                            </div>
+                            <div class="col-2">
+                                <img src="./Images/heart.png" style="height: 20px;" class="">
+                            </div>
+                        </div>
+                        <h5 class="card-title fw-bold mt-2 mb-3">Rs 8,000,000</h5>
+                    </div>
+                    <div class="card-footer text-muted fs-6 bg-white">Quetta, Balochistan . 7 hours ago</div>
+                </div>
+            </div>
+
+            <!-- Card 03 -->
+            <div class="col-lg-3 col-sm-6 mt-lg-5 mt-4">
+                <div class="card">
+                    <img src="./Images/card_img-3.jfif" class="card-img-top" style="height: 200px;">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-10">
+                                <p class="card-text">mi true wireless earbuds Black Color</p>
+                            </div>
+                            <div class="col-2">
+                                <img src="./Images/heart.png" style="height: 20px;" class="">
+                            </div>
+                        </div>
+                        <h5 class="card-title fw-bold mt-2 mb-3">Rs 3,500</h5>
+                    </div>
+                    <div class="card-footer text-muted fs-6 bg-white">Area, Islamabad . 1 hour ago</div>
+                </div>
+            </div>
+
+            <!-- Card 04 -->
+            <div class="col-lg-3 col-sm-6 mt-lg-5 mt-4">
+                <div class="card">
+                    <img src="./Images/card_img-16.jfif" class="card-img-top" style="height: 200px;">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-10">
+                                <p class="card-text">Allys farm House, with 2 Swimming Pool</p>
+                            </div>
+                            <div class="col-2">
+                                <img src="./Images/heart.png" style="height: 20px;" class="">
+                            </div>
+                        </div>
+                        <h5 class="card-title fw-bold mt-2 mb-3">Rs 15,000</h5>
+                    </div>
+                    <div class="card-footer text-muted fs-6 bg-white ">Saggian, Lahore . 1 hour ago</div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Card Row 5 -->
+        <div class="row g-2">
+            <!-- Card 01 -->
+            <div class="col-lg-3 col-sm-6 mt-lg-5 mt-4">
+                <div class="card">
+                    <img src="./Images/card_img-17.jfif" class="card-img-top" style="height: 200px;">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-10">
+                                <p class="card-text">Realme C3 2GB & 32GB Red Color Body</p>
+                            </div>
+                            <div class="col-2">
+                                <img src="./Images/heart.png" style="height: 20px;" class="">
+                            </div>
+                        </div>
+                        <h5 class="card-title fw-bold mt-2 mb-3">Rs 16,500</h5>
+                    </div>
+                    <div class="card-footer text-muted fs-6 bg-white ">Bhawalpur, Punjab . 4 hours ago</div>
+                </div>
+            </div>
+
+            <!-- Card 02 -->
+            <div class="col-lg-3 col-sm-6 mt-lg-5 mt-4">
+                <div class="card">
+                    <img src="./Images/card_img-18.jfif" class="card-img-top" style="height: 200px;">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-10">
+                                <p class="card-text">DELL Laptop with light keypad Core i7 4th Gen</p>
+                            </div>
+                            <div class="col-2">
+                                <img src="./Images/heart.png" style="height: 20px;" class="">
+                            </div>
+                        </div>
+                        <h5 class="card-title fw-bold mt-2 mb-3">Rs 60,000</h5>
+                    </div>
+                    <div class="card-footer text-muted fs-6 bg-white">Quetta, Balochistan . 7 hours ago</div>
+                </div>
+            </div>
+
+            <!-- Card 03 -->
+            <div class="col-lg-3 col-sm-6 mt-lg-5 mt-4">
+                <div class="card">
+                    <img src="./Images/card_img-19.jfif" class="card-img-top" style="height: 200px;">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-10">
+                                <p class="card-text">P47 Wireless Headphones New Box</p>
+                            </div>
+                            <div class="col-2">
+                                <img src="./Images/heart.png" style="height: 20px;" class="">
+                            </div>
+                        </div>
+                        <h5 class="card-title fw-bold mt-2 mb-3">Rs 999</h5>
+                    </div>
+                    <div class="card-footer text-muted fs-6 bg-white ">Rawalpindi . 12 hour ago</div>
+                </div>
+            </div>
+
+            <!-- Card 04 -->
+            <div class="col-lg-3 col-sm-6 mt-lg-5 mt-4">
+                <div class="card">
+                    <img src="./Images/card_img-4.jfif" class="card-img-top" style="height: 200px;">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-10">
+                                <p class="card-text">1 Kanal Brand New Designer House</p>
+                            </div>
+                            <div class="col-2">
+                                <img src="./Images/heart.png" style="height: 20px;" class="">
+                            </div>
+                        </div>
+                        <h5 class="card-title fw-bold mt-2 mb-3">Rs 80,000</h5>
+                    </div>
+                    <div class="card-footer text-muted fs-6 bg-white ">Street, Rawalpindi . 1 hour ago</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Button Load More -->
+        <!-- <div class="my-4"> -->
+        <div class="row justify-content-center my-5 m-0">
+            <div class="col-lg-2 p-0 text-center">
+                <button class=" btn btn-outline-dark fw-bold">Load More</button>
+            </div>
+        </div>
+        <!-- </div> -->
+
+
+        <div class="row justify-content-center m-0">
+            <div class="col-lg-9 p-0">
+                <img class="img-fluid w-100" src="./Images/footer above ads.jfif" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- Footer _ Part 01 _ 3 column -->
+
+    <div class="container-fluid mt-3" style="background-color: #F7F8F9;">
+        <div class="container">
+            <div class="row m-0">
+                <div class="col-lg-4 col-md-9 mx-md-auto ">
+                    <img class="w-100 h-100" src="./Images/footer-olx.png" alt="">
+                </div>
+                <div class="col-lg-4 col-md-9 mx-md-auto border-end border-3 px-4 mt-4 py-2">
+                    <h2 class="h2 fw-bold">TRY THE OLX APP</h2>
+                    <p class="fs-5 my-4">Buy, sell and find just about anything using the app on your mobile.</p>
+                </div>
+                <div class="col-lg-4 col-md-9 mx-md-auto py-5 px-3">
+                    <p class="fw-bold">GET YOUR APP TODAY</p>
+                    <div class="row g-2">
+                        <div class="col-4">
+                            <img src="./Images/footer_App store.svg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img src="./Images/footer-google-play.svg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img src="./Images/footer _App gallery.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer _ Part 02 _ middle -->
+
+    <div class="container-fluid border-top border-4 mt-0 pt-3 pb-2" style="background-color: #EBEEEF;">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-2 col-sm-6 text-sm-start text-center">
+                    <h6 class="fw-bold">POPULAR CATEGORIES</h6>
+                    <ul class="list-unstyled text-muted fs-6">
+                        <li>Cars</li>
+                        <li>Flats for rent</li>
+                        <li>Mobile Phones</li>
+                        <li>Jobs</li>
+                    </ul>
+                </div>
+                <div class="col-xl-2 col-sm-6 text-sm-start text-center">
+                    <h6 class="fw-bold">TRENDING SEARCHES</h6>
+                    <ul class="list-unstyled text-muted fs-6">
+                        <li>Bikes</li>
+                        <li>Watches</li>
+                        <li>Books</li>
+                        <li>Dogs</li>
+                    </ul>
+                </div>
+                <div class="col-xl-2 col-sm-6 text-sm-start text-center">
+                    <h6 class="fw-bold">ABOUT US</h6>
+                    <ul class="list-unstyled text-muted fs-6">
+                        <li>About EMPG</li>
+                        <li>OLX Blog</li>
+                        <li>Contact Us</li>
+                        <li>OLX for Businesses</li>
+                    </ul>
+                </div>
+                <div class="col-xl-2 col-sm-6 text-sm-start text-center">
+                    <h6 class="fw-bold">OLX</h6>
+                    <ul class="list-unstyled text-muted fs-6">
+                        <li>Help</li>
+                        <li>Sitemap</li>
+                        <li>Terms of use</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                </div>
+                <div class="col-xl-4 col-md-6 mx-auto text-center text-xl-start ps-xl-5 mt-md-4 mt-xl-0" stylse="padding-left: 120px;">
+                    <h6 class="fw-bold">FOLLOW US</h6>
+                    <img style="width:25px; height:30px" src="./Images/footer icon facebook.svg" alt="">
+                    <img style="width:25px; height:30px" src="./Images/footer icon twitter.svg" alt="">
+                    <img style="width:25px; height:30px" src="./Images/footer icon instagram.svg" alt="">
+                    <img style="width:25px; height:30px" src="./Images/footer icon youtube.svg" alt="">
+                    <div class="col-lg-12 col-md-9 mx-md-auto mt-3">
+                        <div class="row g-1">
+                            <div class="border border-1 col-4">
+                                <img src="./Images/footer_App store.svg" alt="">
+                            </div>
+                            <div class="border border-1 col-4">
+                                <img src="./Images/footer-google-play.svg" alt="">
+                            </div>
+                            <div class="border border-1 col-4">
+                                <img src="./Images/footer _App gallery.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer _ Part 02 _ last -->
+    <div class="container-fluid p-0" style="background-color: #002F34;">
+        <div class="container">
+            <p class="text-lg-end text-center text-light py-3 m-0">Free Classifieds in Pakistan .© 2006-2022 OLX</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="./JS/bootstrap.min.js"></script>
+</body>
+
+</html>
